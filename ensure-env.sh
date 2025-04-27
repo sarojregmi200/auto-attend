@@ -8,28 +8,14 @@ if [ -z "$BASE_URL" ]; then
   exit 1
 fi
 
-if [ -z "$STATUS_ROUTE" ]; then
-  echo "Please set STATUS_ROUTE"
-  exit 1
-fi
-
-if [ -z "$ATTENDANCE_ROUTE" ]; then
-  echo "Please set ATTENDANCE_ROUTE"
-  exit 1
-fi
-
-if [ -z "$USERNAME" ]; then
-  echo "Please set USERNAME"
+if [ -z "$EMAIL" ]; then
+  echo "Please set EMAIL"
   exit 1
 fi
 
 if [ -z "$PASSWORD" ]; then
+  echo "$PASSWORD"
   echo "Please set PASSWORD"
-  exit 1
-fi
-
-if [ -z "$FCM_TOKEN" ]; then
-  echo "Please set FCM_TOKEN"
   exit 1
 fi
 
