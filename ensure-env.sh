@@ -2,6 +2,9 @@
 
 # This script ensures that all the required variables
 # are set before running the script
+# TODO: Ask for the missing variables and export them 
+# proabably in the config files as well.
+# if they choose it to be persistent.
 
 if [ -z "$BASE_URL" ]; then
   echo "Please set BASE_URL"

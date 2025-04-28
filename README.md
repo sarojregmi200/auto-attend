@@ -2,13 +2,12 @@
 Just a attendance automation script for my office attendance.
 
 ### Setup
-please set: 
+First, you will need to set this variable in your env to make this script run correctly.
 
 ```bash
 export BASE_URL="api_base_url" 
-EXPORT USERNAME="your username"
+export USERNAME="your username"
 export PASSWORD="your password"
-export FCM_TOKEN="your fcm token"
 
 # If you have not set an access token then 
 # It will be set automatically using your username and password.
